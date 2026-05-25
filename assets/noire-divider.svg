@@ -1,0 +1,25 @@
+<svg width="960" height="54" viewBox="0 0 960 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Noire holographic divider</title>
+  <desc id="desc">A thin purple and cyan signal divider line with subtle glow.</desc>
+  <defs>
+    <linearGradient id="line" x1="120" y1="27" x2="840" y2="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050510" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="0.82" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#050510" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="960" height="54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M104 27H856" stroke="url(#line)" stroke-width="1.5" filter="url(#glow)"/>
+  <path d="M282 27H338M622 27H678" stroke="#F8FAFC" stroke-opacity=".5" stroke-width="1"/>
+  <circle cx="480" cy="27" r="3.5" fill="#22D3EE"/>
+  <circle cx="480" cy="27" r="10" stroke="#7C3AED" stroke-opacity=".45"/>
+  <circle cx="480" cy="27" r="18" stroke="#22D3EE" stroke-opacity=".16"/>
+</svg>

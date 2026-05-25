@@ -1,0 +1,26 @@
+<svg width="720" height="260" viewBox="0 0 720 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Research and Knowledge Tools</title>
+  <desc id="desc">A black glass card for transcript, notes, memory, and learning systems.</desc>
+  <defs>
+    <linearGradient id="border" x1="720" y1="260" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".48" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(560 198) rotate(168) scale(310 126)">
+      <stop stop-color="#22D3EE" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#050510" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="718" height="258" rx="18" fill="#050510"/>
+  <rect x="1" y="1" width="718" height="258" rx="18" fill="url(#glow)"/>
+  <rect x="1" y="1" width="718" height="258" rx="18" stroke="url(#border)" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M52 82C52 66 65 54 82 54H142V184H82C65 184 52 172 52 156V82Z" fill="#080617" stroke="#2DD4BF" stroke-opacity=".66"/>
+  <path d="M82 78H126M82 104H122M82 130H132M82 156H116" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round"/>
+  <path d="M142 54C158 54 170 66 170 82V156C170 172 158 184 142 184" stroke="#22D3EE" stroke-opacity=".62"/>
+  <path d="M178 64H578" stroke="#22D3EE" stroke-opacity=".35"/>
+  <text x="178" y="105" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Research &amp; Knowledge Tools</text>
+  <text x="178" y="144" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Transcript · notes · memory · learning architecture</text>
+  <path d="M178 178H544" stroke="#2DD4BF" stroke-opacity=".65" stroke-width="3" stroke-linecap="round"/>
+  <path d="M178 198H428" stroke="#7C3AED" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="720" height="260" viewBox="0 0 720 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Workflow and AgentOps</title>
+  <desc id="desc">A black glass card for AI-assisted development workflows and AgentOps.</desc>
+  <defs>
+    <linearGradient id="border" x1="720" y1="0" x2="0" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset=".52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(578 60) rotate(145) scale(270 126)">
+      <stop stop-color="#7C3AED" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#050510" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="718" height="258" rx="18" fill="#050510"/>
+  <rect x="1" y="1" width="718" height="258" rx="18" fill="url(#glow)"/>
+  <rect x="1" y="1" width="718" height="258" rx="18" stroke="url(#border)" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="90" cy="120" r="42" fill="#080617" stroke="#7C3AED" stroke-opacity=".75"/>
+  <circle cx="90" cy="120" r="11" fill="#22D3EE"/>
+  <path d="M90 78V54M90 186V162M48 120H24M156 120H132M60 90L42 72M120 150L138 168M120 90L138 72M60 150L42 168" stroke="#22D3EE" stroke-opacity=".62" stroke-width="2" stroke-linecap="round"/>
+  <path d="M178 64H546" stroke="#7C3AED" stroke-opacity=".4"/>
+  <text x="178" y="105" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">AI Workflow / AgentOps</text>
+  <text x="178" y="144" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Prompt systems · review protocols · controlled AI loops</text>
+  <path d="M178 178H520" stroke="#22D3EE" stroke-opacity=".65" stroke-width="3" stroke-linecap="round"/>
+  <path d="M178 198H412" stroke="#2DD4BF" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+</svg>
