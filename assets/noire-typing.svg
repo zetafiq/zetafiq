@@ -1,0 +1,47 @@
+<svg width="760" height="74" viewBox="0 0 760 74" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Noire Core typing signal</title>
+  <desc id="desc">A terminal-style typing line reading Initializing Noire Core, LizNoiree signal online, and Building quietly, shipping carefully.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="760" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050510"/>
+      <stop offset=".5" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#080617"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="80" y1="37" x2="680" y2="37" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset=".5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <clipPath id="typeClipOne">
+      <rect x="179" y="24" width="0" height="28">
+        <animate attributeName="width" values="0;236;236;0;0" keyTimes="0;.28;.72;.9;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeClipTwo">
+      <rect x="179" y="24" width="0" height="28">
+        <animate attributeName="width" values="0;0;268;268;0" keyTimes="0;.18;.46;.78;1" dur="8s" begin="2.6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeClipThree">
+      <rect x="179" y="24" width="0" height="28">
+        <animate attributeName="width" values="0;0;350;350;0" keyTimes="0;.16;.5;.78;1" dur="8s" begin="5.2s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect x="2" y="2" width="756" height="70" rx="18" fill="url(#shell)" stroke="url(#edge)" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="32" cy="37" r="6" fill="#7C3AED"/>
+  <circle cx="54" cy="37" r="6" fill="#22D3EE"/>
+  <circle cx="76" cy="37" r="6" fill="#2DD4BF"/>
+  <text x="108" y="45" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="18">$</text>
+  <text x="179" y="45" fill="#22D3EE" fill-opacity=".22" font-family="Consolas, Menlo, monospace" font-size="18">Initializing Noire Core...</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="18" fill="#F8FAFC">
+    <text x="132" y="45">signal:</text>
+    <text x="179" y="45" clip-path="url(#typeClipOne)" fill="#22D3EE">Initializing Noire Core...</text>
+    <text x="179" y="45" clip-path="url(#typeClipTwo)" fill="#C4B5FD">LizNoiree signal online...</text>
+    <text x="179" y="45" clip-path="url(#typeClipThree)" fill="#2DD4BF">Building quietly. Shipping carefully.</text>
+  </g>
+  <rect x="540" y="24" width="10" height="24" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="260;415;260;445;260;530;260" keyTimes="0;.18;.32;.48;.62;.82;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,81 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Noire Core environment banner</title>
+  <desc id="desc">A wide futuristic black glass environment with violet and cyan holographic light, panels, particles, and scan sweeps.</desc>
+  <defs>
+    <radialGradient id="roomGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 146) rotate(90) scale(260 610)">
+      <stop offset="0" stop-color="#16204D"/>
+      <stop offset=".42" stop-color="#080617"/>
+      <stop offset="1" stop-color="#050510"/>
+    </radialGradient>
+    <linearGradient id="horizon" x1="110" y1="170" x2="1170" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050510" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#7C3AED" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#22D3EE" stop-opacity=".85"/>
+      <stop offset=".8" stop-color="#2DD4BF" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#050510" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#22D3EE" stop-opacity=".38"/>
+      <stop offset=".55" stop-color="#F8FAFC" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-120" y="-80" width="1520" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="300" rx="26" fill="url(#roomGlow)"/>
+  <path d="M80 238L360 92H920L1200 238" stroke="#22D3EE" stroke-opacity=".18"/>
+  <path d="M174 238L430 120H850L1106 238" stroke="#7C3AED" stroke-opacity=".22"/>
+  <path d="M0 238H1280" stroke="url(#horizon)" stroke-width="2" filter="url(#blurGlow)"/>
+  <path d="M204 68H488M792 68H1076" stroke="#7C3AED" stroke-opacity=".34" stroke-width="2" stroke-linecap="round"/>
+  <path d="M290 98H990" stroke="#22D3EE" stroke-opacity=".18"/>
+  <path d="M360 142H920" stroke="#2DD4BF" stroke-opacity=".18"/>
+
+  <g filter="url(#blurGlow)">
+    <ellipse cx="640" cy="170" rx="116" ry="42" fill="#22D3EE" fill-opacity=".08"/>
+    <ellipse cx="640" cy="164" rx="82" ry="24" fill="#7C3AED" fill-opacity=".18"/>
+    <circle cx="640" cy="146" r="50" fill="#050510" fill-opacity=".72" stroke="#22D3EE" stroke-opacity=".55"/>
+    <circle cx="640" cy="146" r="24" fill="#22D3EE" fill-opacity=".16" stroke="#F8FAFC" stroke-opacity=".36"/>
+    <path d="M590 146H690M640 96V196" stroke="#22D3EE" stroke-opacity=".45"/>
+  </g>
+
+  <g opacity=".58">
+    <rect x="94" y="88" width="160" height="82" rx="12" fill="#050510" fill-opacity=".48" stroke="#7C3AED" stroke-opacity=".35"/>
+    <rect x="1026" y="88" width="160" height="82" rx="12" fill="#050510" fill-opacity=".48" stroke="#22D3EE" stroke-opacity=".35"/>
+    <path d="M120 116H218M120 140H188" stroke="#C4B5FD" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1052 116H1150M1052 140H1120" stroke="#22D3EE" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g opacity=".62">
+    <circle cx="152" cy="54" r="2" fill="#22D3EE">
+      <animate attributeName="opacity" values=".15;.8;.15" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="278" cy="210" r="1.6" fill="#C4B5FD">
+      <animate attributeName="opacity" values=".25;.75;.25" dur="6.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="506" cy="48" r="1.4" fill="#F8FAFC">
+      <animate attributeName="opacity" values=".18;.68;.18" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="792" cy="218" r="1.7" fill="#2DD4BF">
+      <animate attributeName="opacity" values=".2;.8;.2" dur="5.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1138" cy="56" r="2" fill="#7C3AED">
+      <animate attributeName="opacity" values=".2;.88;.2" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="-260" y="86" width="240" height="34" rx="17" fill="url(#beam)" opacity=".55">
+    <animate attributeName="x" values="-260;1300" dur="8.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.55;0" dur="8.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1280" y="202" width="190" height="22" rx="11" fill="url(#beam)" opacity=".32">
+    <animate attributeName="x" values="1280;-240" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.42;0" dur="12s" repeatCount="indefinite"/>
+  </rect>
+</svg>

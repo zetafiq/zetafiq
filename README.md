@@ -1,11 +1,19 @@
 <p align="center">
-  <img src="./assets/noire-core.svg" alt="Noire Core abstract purple cyan manifold" width="420" />
+  <img src="./assets/noire-banner.svg" alt="Noire Core futuristic purple cyan environment banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/noire-core.svg" alt="Noire Core animated purple cyan manifold system core" width="430" />
 </p>
 
 <h1 align="center">Syafiq / LizNoiree</h1>
 
 <p align="center">
   Building AI-assisted development workflows, mobile systems, and visual software experiences.
+</p>
+
+<p align="center">
+  <img src="./assets/noire-typing.svg" alt="Initializing Noire Core. LizNoiree signal online." width="620" />
 </p>
 
 <p align="center">
@@ -19,7 +27,23 @@
 </p>
 
 <p align="center">
-  <img src="./assets/noire-divider.svg" alt="Purple cyan holographic divider" width="720" />
+  <img src="./assets/noire-signal-wave.svg" alt="Animated cyan violet Noire Core signal wave divider" width="820" />
+</p>
+
+<h2 align="center">Current Signal</h2>
+
+<p align="center">
+  A compact public surface for the work I keep returning to: AI-assisted engineering, mobile app systems, polished interfaces, and knowledge tools that make thought easier to reuse.
+</p>
+
+<p align="center">
+  <img src="./assets/noire-card-mobile.svg" alt="Mobile App Systems card" width="360" />
+  <img src="./assets/noire-card-ai-workflow.svg" alt="AI Workflow and AgentOps card" width="360" />
+</p>
+
+<p align="center">
+  <img src="./assets/noire-card-design.svg" alt="UI Modernization card" width="360" />
+  <img src="./assets/noire-card-research.svg" alt="Research and Knowledge Tools card" width="360" />
 </p>
 
 <details>
@@ -33,16 +57,6 @@
 
 <details>
   <summary><strong>Open: What I Build</strong></summary>
-
-  <p align="center">
-    <img src="./assets/noire-card-mobile.svg" alt="Mobile App Systems card" width="360" />
-    <img src="./assets/noire-card-ai-workflow.svg" alt="AI Workflow and AgentOps card" width="360" />
-  </p>
-
-  <p align="center">
-    <img src="./assets/noire-card-design.svg" alt="UI Modernization card" width="360" />
-    <img src="./assets/noire-card-research.svg" alt="Research and Knowledge Tools card" width="360" />
-  </p>
 
   **Mobile App Systems**  
   Flutter/Dart interfaces, structured app flows, clean screen logic, and practical mobile experience design.
@@ -124,7 +138,7 @@
 </details>
 
 <p align="center">
-  <img src="./assets/noire-divider.svg" alt="Purple cyan holographic divider" width="720" />
+  <img src="./assets/noire-signal-wave.svg" alt="Animated cyan violet Noire Core signal wave divider" width="820" />
 </p>
 
 <p align="center">
